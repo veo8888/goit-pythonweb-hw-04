@@ -26,7 +26,7 @@
 
 ## 🧰 Installation and Launch
 
-🔧 Option 1: Installing via pip (classic method)
+## 🔧 Option 1: Installing via pip (classic method)
 
 1. Create a virtual environment
 
