@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+
+# --- Virtualenv ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# --- Poetry ---
+# poetry.lock   -> It's better to send it to GitHub, if you don't send it, then uncomment it.
+
+# --- IDE & macOS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Test / coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.ipynb_checkpoints
+
+# --- Build ---
+build/
+dist/
+
+# --- Local configs ---
+.env
+.env.local
+.env.*
+*.secret.*
+*.key
